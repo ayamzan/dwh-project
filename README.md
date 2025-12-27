@@ -2,17 +2,17 @@
 Modern DWH with SQL server with ETL, data modeling and analytics
 
 This SQL project would be done using the Medallion Architecture approach
-#----------------#-------------------------#----------------------------#--------------------------#
-#                # Bronze Layer            # Silver Layer               # Gold Layer               #
-#----------------#-------------------------#----------------------------#--------------------------#
-# Definitiion    # Raw unprocessed data    # Cleaned and processed data # Business ready           #
-# Objective      # Tracebility & debugging # Prepare for analysis       # Analysis & Reporting     #
-# Object Type    # Tables                  # Tables                     # Tables                   #
-# Load Method    # Full Load               # Full Load                  # None                     #
-# Transformation # None                    # Full transformation        # Aggregations, biz logics #
-# Modelling      # As is                   # As is                      # Which Schema             #
-# RBAC           # Data Engineers          # Data Engineers, Analysts   # Business Users           #
-#----------------#-------------------------#----------------------------#--------------------------#
+|----------------|-------------------------|----------------------------|--------------------------|
+|                | Bronze Layer            | Silver Layer               | Gold Layer               |
+|----------------|-------------------------|----------------------------|--------------------------|
+| Definitiion    | Raw unprocessed data    | Cleaned and processed data | Business ready           |
+| Objective      | Tracebility & debugging | Prepare for analysis       | Analysis & Reporting     |
+| Object Type    | Tables                  | Tables                     | Tables                   |
+| Load Method    | Full Load               | Full Load                  | None                     |
+| Transformation | None                    | Full transformation        | Aggregations, biz logics |
+| Modelling      | As is                   | As is                      | Which Schema             |
+| RBAC           | Data Engineers          | Data Engineers, Analysts   | Business Users           |
+|----------------|-------------------------|----------------------------|--------------------------|
 
 # methods used
 Extraction method - pull

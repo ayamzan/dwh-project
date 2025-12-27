@@ -13,7 +13,7 @@ This SQL project would be done using the Medallion Architecture approach
 | Transformation | None                    | Full transformation        | Aggregations, biz logics |
 | Modelling      | As is                   | As is                      | Which Schema             |
 | RBAC           | Data Engineers          | Data Engineers, Analysts   | Business Users           |
-|----------------|-------------------------|----------------------------|--------------------------|
+
 
 # methods used
 Extraction method - pull

@@ -50,3 +50,10 @@ surrogate keys: <table_name>_<key>
 technical columns: <dwh>_<column_name> e.g. dwh_created_date
 
 stored procedure: load_<layer> e.g. load_bronze, load_silver
+
+***
+ETL for bronze and silver completed but not pushed yet
+
+EXEC bronze.load_bronze
+EXEC silver.load_silver
+***
